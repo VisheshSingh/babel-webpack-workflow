@@ -1,8 +1,9 @@
 import { styleBody, addTitle } from './dom';
-import users from './data';
+import users, { getPremUsers } from './data';
 
 console.log('index.js');
 styleBody();
 addTitle('hey boys!');
 
 console.log('Users: ', users);
+console.log('Premium Users: ', getPremUsers(users));

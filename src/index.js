@@ -1,7 +1,3 @@
-const greet = name => {
-  console.log(`hey ${name}!`);
-};
+import './dom';
 
-greet('v-boy');
-greet('thenetninja');
-greet('shaun');
+console.log('index.js');

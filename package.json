@@ -4,8 +4,8 @@
   "description": "modern JS with babel and webpack",
   "main": "index.js",
   "scripts": {
-    "babel": "node_modules/.bin/babel src/index.js -w -o dist/assets/bundle.js",
-    "webpack": "node_modules/.bin/webpack -w"
+    "build": "node_modules/.bin/webpack",
+    "serve": "webpack-dev-server"
   },
   "author": "v-boy",
   "license": "ISC",
@@ -15,5 +15,8 @@
     "@babel/preset-env": "^7.4.5",
     "webpack": "^4.34.0",
     "webpack-cli": "^3.3.4"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.7.1"
   }
 }

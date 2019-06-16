@@ -3,3 +3,5 @@ const greet = name => {
 };
 
 greet('v-boy');
+greet('thenetninja');
+greet('shaun');

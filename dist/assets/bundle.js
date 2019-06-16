@@ -5,3 +5,5 @@ var greet = function greet(name) {
 };
 
 greet('v-boy');
+greet('thenetninja');
+greet('shaun');
